@@ -76,21 +76,21 @@
             <legend class="text-uppercase fs-6 fw-bolder mt-3 mb-3">Gegevens</legend>
             <section class="row">
               <section class="col-md-6">
-                <label for="voornaam" class="mt-2 mb-2">voornaam <span class="koffiebruin">*</span></label>
+                <label class="mt-2 mb-2">voornaam <span class="koffiebruin">*</span></label>
                 <input type="text" class="form-control required">
               </section>
               <section class="col-md-6">
-                <label for="achternaam" class="mt-2 mb-2">achternaam <span class="koffiebruin">*</span></label>
+                <label class="mt-2 mb-2">achternaam <span class="koffiebruin">*</span></label>
                 <input type="text" class="form-control required">
               </section>
             </section>
             <section class="row">
               <section class="col-6">
-                <label for="voornaam" class="mt-2 mb-2">mobiel</label>
+                <label class="mt-2 mb-2">mobiel</label>
                 <input type="tel" class="form-control" placeholder="0412 34 56 78">
               </section>
               <section class="col-6">
-                <label for="geboortedatum" class="mt-2 mb-2">geboortedatum</label>
+                <label class="mt-2 mb-2">geboortedatum</label>
                 <input type="date" class="form-control">
               </section>
             </section>
@@ -99,17 +99,17 @@
             <legend class="text-uppercase fs-6 fw-bolder mt-3 mb-3">Accountgegevens</legend>
             <section class="row">
               <section>
-                <label for="e-mail" class="mt-2 mb-2">e-mail <span class="koffiebruin">*</span></label>
+                <label class="mt-2 mb-2">e-mail <span class="koffiebruin">*</span></label>
                 <input type="email" class="form-control required">
               </section>
             </section>
             <section class="row">
               <section class="col-md-6">
-                <label for="paswoord" class="mt-2 mb-2">paswoord <span class="koffiebruin">*</span></label>
+                <label class="mt-2 mb-2">paswoord <span class="koffiebruin">*</span></label>
                 <input type="password" class="form-control required" placeholder="in 8 karakters, 1 cijfer, 1 hoofdletter">
               </section>
               <section class="col-md-6">
-                <label for="bevestig paswoord" class="mt-2 mb-2">bevestig paswoord <span class="koffiebruin">*</span></label>
+                <label class="mt-2 mb-2">bevestig paswoord <span class="koffiebruin">*</span></label>
                 <input type="password" class="form-control required">
               </section>
             </section>
@@ -118,21 +118,21 @@
             <legend class="text-uppercase fs-6 fw-bolder mt-3 mb-3">Adresgegevens</legend>
             <section class="row">
               <section>
-                <label for="adres" class="mt-2 mb-2">adres <span class="koffiebruin">*</span></label>
+                <label class="mt-2 mb-2">adres <span class="koffiebruin">*</span></label>
                 <input type="text" class="form-control required">
               </section>
             </section>
             <section class="row">
               <section class="col-6 col-md-3">
-                <label for="postcode" class="mt-2 mb-2">postcode <span class="koffiebruin">*</span></label>
+                <label class="mt-2 mb-2">postcode <span class="koffiebruin">*</span></label>
                 <input type="text" class="form-control required">
               </section>
               <section class="col-6 col-md-5">
-                <label for="bevestig paswoord" class="mt-2 mb-2">stad <span class="koffiebruin">*</span></label>
+                <label class="mt-2 mb-2">stad <span class="koffiebruin">*</span></label>
                 <input type="password" class="form-control required">
               </section>
               <section class="col-12 col-md-4" >
-                <label for="kies een land"  class="mt-2 mb-2">kies een land <span class="koffiebruin">*</span></label>
+                <label class="mt-2 mb-2">kies een land <span class="koffiebruin">*</span></label>
                 <select name="kies een land" class="form-select">
                   <option value="België">Belgie</option>
                   <option value="Frankrijk">Frankrijk</option>
@@ -142,8 +142,29 @@
             </section>
           </fieldset>
           <fieldset>
-            
+            <legend class="text-uppercase fs-6 fw-bolder mt-3 mb-3">Koffie-achtergrond</legend>
+            <section class="row">
+              <section class="col-6">
+                <label class="mt-2 mb-2">ik koop</label>
+                <select name="ik koop" class="form-select">
+                  <option value="Koffiebonen">Koffiebonen</option>
+                </select>
+              </section>
+              <section class="col-6">
+                <label class="mt-2 mb-2">en ben fan van het merk</label>
+                <select name="merk" class="form-select">
+                  <option value="Illy">Illy</option>
+                </select>
+              </section>
+            </section>
+            <section class="row">
+              <section>
+                <label class="mt-2 mb-2">hoe tevreden ben je van ons?</label>
+                <input type="range" class="form-range">
+              </section>
+            </section>
           </fieldset>
+          <button type="submit" class="btn btn-primary">verzenden</butto<n>
         </form>
       </section>
       <hr>
